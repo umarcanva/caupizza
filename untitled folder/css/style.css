@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.visually-hidden{
+   
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    padding:0 !important;
+    border: 0 !important;
+    height:1px !important;
+    width: 1px !important;
+    overflow: hidden;
+
+}
+.back-orange{
+    background-color: #ff006a67;
+}
+
+.back-orange:hover{
+    background-color: #0e09a37a;
+}
+
+body{
+     font-family: 'Comfortaa', cursive;
+     background-image: linear-gradient(45deg,rgba(80, 126, 179, 0.304), rgba(70, 52, 177, 0.402), rgba(62, 161, 154, 0.5), rgba(82, 18, 160, 0.546));
+  
+}
+header{
+    
+    padding-top: 20px;
+    text-align: center;
+}
+.asos{
+   
+    background-image: linear-gradient(45deg,rgba(252, 83, 83, 0.304), rgba(93, 93, 41, 0.402), rgba(142, 251, 75, 0.5), rgba(75, 251, 113, 0.546));
+
+}
+.main{
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.res-name{
+    background: -webkit-linear-gradient(rgb(6, 238, 250), rgb(40, 232, 11));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 5vw ;
+    
+   
+  
+}
+.slogan{
+    font-weight: 50vw;
+}
+nav{
+    width: 80%;
+    margin: 15px auto;
+    background-color: #4133c5;
+    text-align: center;
+
+}
+.nav-item>a{
+    color: rgb(47, 255, 68);
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 2vw 4vw;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+    font-size: 1vw;
+    border-radius: 2%;
+  
+ 
+}
+.nav-item:hover{
+
+    background-color: rgba(0, 255, 60, 0);
+    color: whitesmoke;
+
+}
+.dropdown{
+    position: relative;
+   
+}
+
+.dropdown-menu{
+
+    position: absolute;
+    display: none;
+    min-width: 100%;
+    left: 0;
+    top: 4vw;
+    
+    
+}
+.dropdown:hover>a{
+    color: whitesmoke; 
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+   
+}
+span{
+    color: #e82d2d;
+}
+
+.dropdown-menu li{
+    display: block;
+    text-align: center ;
+    align-items: center;
+    background-color: black;
+    margin-top: .27vw;
+    padding-top: 1.2vw;
+    border-radius: .2vw;
+    
+}
+.dropdown-menu li:hover{
+    background-color: rgb(0, 255, 60);
+    border-radius: .2vw;
+    color: whitesmoke;
+   
+    
+    
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.basis{
+    text-align: center ;
+}
+.list{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.list1{
+    display: inline-block;
+    width: 25% ;
+    height:3.4vw ;
+    margin: 2vw 3%;
+    margin-bottom: 1.2vw;
+  
+
+
+}
+.list1:nth-child(1),
+.list1:nth-child(4),
+.list1:nth-child(7)
+{
+    margin-left:0 ;
+    margin-top: 1vw;
+}  
+.list1:nth-child(3),
+.list1:nth-child(6),
+.list1:nth-child(9){
+    margin-right:0 ;
+    margin-top: 1vw;
+}  
+
+
+.recipe-img{
+    min-width: 100%;
+    height: 12.5vw;
+    object-fit: color;
+    border-radius: 10px;
+}
+.recipe-categories{
+    text-decoration: none;
+    margin-top: .62vw;
+    color: aliceblue;
+    display: inline-block;
+    padding: .312vw .625vw;
+    text-transform: uppercase;
+    font-size: .75vw;
+    font-weight: bold;
+}
+.recipe-title-link{
+    text-decoration: none;
+    color: rgb(174, 38, 38);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .75vw;
+    margin: .95vw 0;
+}
+.recipe-title-link:hover{
+    color: deeppink;
+}
+
+.all-recipe{
+    text-decoration: none;
+    color: #3112ae;
+    border: 1px solid rgb(23, 4, 82);
+    display: inline-block;
+    padding: .98vw 1.9vw;
+    margin: 2.5vw 0;
+    font-size: 1.4vw;
+    
+}
+.all-recipe:hover{
+    background-color: deeppink;
+    color: aliceblue;
+}
+.form{
+    background-image: url("../images/pizza.jpg");
+    background-repeat: no-repeat; 
+    
+    background-size: cover;
+    background-position-y: -3.12vw;
+    padding: 6.2vw 0;
+    text-align: center;
+
+}
+.email-input{
+    padding:1.25vw 1.25vw;
+    width: 25vw;
+    border: none;
+    margin-right: 1.9vw;
+    font-size: 1vw;
+
+}
+.email-submit{
+    background-color: #f75f23;
+    color: aliceblue;
+    padding: 1.2vw 2.5vw;
+    border: none;
+    font-size: 1vw;
+}
+.subscribe{
+    color: whitesmoke;
+    margin-top: 2.5vw;
+
+}
+.item-btn{
+    width: 6.25vw;
+    height: 2vw;
+    background-color: #ff006ac0;
+    border: none;
+    border-radius: 0.62vw;
+    font-size: 1vw;
+    color: #fff;
+}
+.item-btn:hover{
+    background-color: #77ff00c9;
+    color: #e82d2d;
+    width: 6.4vw;
+    height: 2.3vw;
+}
+.des{
+    font-size: 1vw;
+    padding-top: 4vw;
+    color:rgb(42, 32, 95);
+}
